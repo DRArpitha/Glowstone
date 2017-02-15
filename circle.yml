@@ -3,9 +3,9 @@ machine:
        version: oraclejdk8
 dependencies:
     override:
-        - git config --global user.email "circuitsoft@tuta.io"
-        - git config --global user.name "mastercoms"
-        - git clone https://github.com/GlowstoneMC/Glowkit.git
+        - git config --global user.email "arpithadr1@gmail.com"
+        - git config --global user.name "DRArpitha"
+        - git clone https://github.com/DRArpitha/Glowstone.git
         - (cd Glowkit && chmod +x glowkit && ./glowkit p)
         - (cd Glowkit/Glowkit-Patched && mvn install)
 test:
